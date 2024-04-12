@@ -50,4 +50,4 @@ TaskWise is a Flutter application designed for efficient task management. It uti
 
 ## Contributors
 
-- Add your name and contact information if you wish to acknowledge contributors to the project.
+- Bhavya Malik
