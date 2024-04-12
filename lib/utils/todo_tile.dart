@@ -70,8 +70,14 @@ class ToDoTile extends StatelessWidget {
                     // ),
                   ),
                 ],
-              )
+              ),
+          Spacer(),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.keyboard_arrow_right_sharp), // Corrected icon usage
+          )
             ],
+
           ),
         ),
       ),

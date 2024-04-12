@@ -3,8 +3,17 @@ import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:todo/auth.dart';
 
+import 'package:firebase_core/firebase_core.dart';
+import 'package:todo/auth_check_page.dart';
+import 'package:todo/front.dart';
+import 'firebase_options.dart';
+
 void main() async {
   // init the hive
+
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
   await Hive.initFlutter();
 
   // open a box
@@ -23,11 +32,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Task Manager',
       theme: ThemeData(
-
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SignInScreen(),
+      home: TaskIoHomePage(),
     );
   }
 }

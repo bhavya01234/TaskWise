@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "241826805287",
+    "project_id": "todokraftbase",
+    "storage_bucket": "todokraftbase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241826805287:android:673d55acfe5970b4008002",
+        "android_client_info": {
+          "package_name": "com.example.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC80y3zPywe6H5DyKLog7GE6DkMx1tYVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
